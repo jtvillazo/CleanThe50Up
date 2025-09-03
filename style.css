@@ -49,14 +49,16 @@ body::after {
 
 .text-ctn {
   background-image: url(img/Notes.png);
-  background-position: right;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 90%;
-  height: 50%;
+  width: 95%;
+  height: 65%;
   position: absolute;
   z-index: 5;
   display: block;
+  margin-top: 20%;
+  margin-left: 10%;
 }
 
 .hidden {
