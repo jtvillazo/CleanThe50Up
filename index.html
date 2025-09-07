@@ -13,19 +13,21 @@
     />
   </head>
   <body>
-    <div id="black-overlay" class="black-overlay hidden">
-      <button id="close-button" class="close-button" type="button">x</button>
+    <button id="close-button" class="close-button hidden" type="button">x</button>
+    <div id="black-overlay" class="black-overlay hidden"></div>
+    <div id="text-ctn" class="text-ctn hidden">
+      <h2 id="modal-name">Hola</h2>
+      <p class="modal-message" id="modal-message"></p>
     </div>
-    <div id="text-ctn" class="text-ctn hidden"></div>
-
+    
     <main>
       <div class="title-ctn"></div>
       <div class="house-ctn"></div>
       <div class="avatars-ctn">
-        <img src="img/avatars/chino.png" id="chino" class="avatars chino"></img>
-        <img src="img/avatars/Martu.png" id="martu" class="avatars martu"></img>
-        <img src="img/avatars/romey.png" id="romey" class="avatars romey"></img>
-        <img src="img/avatars/Jose.png" id="jose" class="avatars jose"></img>
+        <img src="img/avatars/chino.png" data-nombre="Chino" id="chino" class="avatars chino"></img>
+        <img src="img/avatars/Martu.png" data-nombre="Martu" id="martu" class="avatars martu"></img>
+        <img src="img/avatars/romey.png" data-nombre="Romey" id="romey" class="avatars romey"></img>
+        <img src="img/avatars/Jose.png" data-nombre="Jose" id="jose" class="avatars jose"></img>
       </div>
     </main>
   </body>
